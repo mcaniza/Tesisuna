@@ -1,0 +1,47 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{framed, color}
+\usepackage{textcomp}
+\usepackage{vmargin}
+\usepackage{graphicx}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{enumerate} % enumerados
+
+%--------Codigos para tipos de letras%---------------
+\usepackage[T1]{fontenc}
+\usepackage{pdfpages}
+\usepackage[bitstream-charter]{mathdesign} 
+\usepackage{textcomp} %Paquete para algunos caracteres especiales
+
+\setpapersize{A4}
+\setmargins
+{2.5cm}          % margen izquierdo
+{1.5cm}          % margen superior
+{16.5cm}         % anchura del texto
+{23.42cm}        % altura del texto
+{10pt}           % altura de los encabezados
+{1cm}            % espacio entre el texto y los encabezados
+{0pt}            % altura del pie de página
+{2cm}            % espacio entre el texto y el pie de página
+\usepackage{titlesec}
+\setcounter{secnumdepth}{4}
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+\begin{document}
+	\include{capitulos/caratula}
+%	\tableofcontents
+	\newpage
+%	\listoffigures
+%	\newpage
+%	\listoftables
+	\newpage
+	\include{capitulos/propuesta}
+	%\include{capitulos/area_investigacion}
+	%\include{capitulos/resumen}
+	%\include{capitulos/objetivos}
+	%\include{capitulos/aporte}
+	%\include{capitulos/cronograma}
+	\end{document}
