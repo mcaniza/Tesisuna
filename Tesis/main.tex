@@ -1,0 +1,40 @@
+\documentclass[12pt,a4paper]{report}
+%\documentclass[a4paper,12pt]{article}
+%\usepackage{DejaVuSans}
+%\documentclass[dsc,pdftex,numbers]{coppe}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp} %Paquete para algunos caracteres especiales
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{titlesec}
+\usepackage{vmargin}
+
+ \setpapersize{A4}
+%\setmargins{4cm}         % margen izquierdo
+%{1.5cm}                  % margen superior
+%{16.5cm}                 % anchura del texto
+%{23.42cm}                % altura del texto
+%{10pt}                   % altura de los encabezados
+%{1cm}                    % espacio entre el texto y los encabezados
+%{0pt}                    % altura del pie de página
+%{2cm}                    % espacio entre el texto y el pie de página
+\begin{document}
+    \thispagestyle{empty}
+    \vspace{5cm}
+    \input{Tesis/capitulos/tapa.tex}
+    \input{Tesis/capitulos/aprobacion}
+    \input{Tesis/capitulos/dedicatoria}
+    \input{Tesis/capitulos/agradecimiento}
+    \input{Tesis/capitulos/resumen}
+    \input{Tesis/capitulos/summary}
+    \tableofcontents
+    \listoffigures
+    \listoftables
+    \input{Tesis/capitulos/capitulo1}
+    \input{Tesis/capitulos/capitulo2}
+    \input{Tesis/capitulos/capitulo3}
+    \input{Tesis/capitulos/capitulo4}
+    \input{Tesis/capitulos/capitulo6}
+\end{document}
